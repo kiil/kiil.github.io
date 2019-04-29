@@ -16,16 +16,21 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/docs/</guid>
-      <description>Tokens Tokens baseret på moduler Samlet antal læsninger af indhold
-[gac|all]  Tokens baseret på Views Justgage Nodes Artikler seneste uge
-[views:embed:stats_nodes:embed_2]  Artikel-delinger seneste uge
-[views:embed:stats_nodes:embed_3]  Artikel-læsninger seneste uge
-[views:embed:stats_nodes:embed_5]  Users Nye betalende brugere seneste uge
-[views:embed:stats_users:embed_2]  Terms Brands / medier
-[views:embed:stats_terms:embed_1]  &amp;ldquo;Ren&amp;rdquo; værdi Nodes [views:embed:stats_nodes:embed_4]  Terms Brands / medier
-[views:embed:stats_terms:embed_2]  Personer
-[views:embed:stats_terms:embed_3]  Organisationer
-[views:embed:stats_terms:embed_4]  Users Brugere som har udgivet mindst en artikel</description>
+      <description>Stierne må ikke ændre
+Brugere Den enkelte bruger
+/brugere/[user:name]  Påkrævede felter: Fornavn, Efternavn
+Anbefalede felter: Kort bio
+Oversigt - brugere
+/brugere  Indholdstyper Baseret på tilladelser og arbejdsgange. Se også &amp;ldquo;indholdstype term&amp;rdquo;. Tre separate typer med adskilte arbejdsgange
+Brugerskabt Anmeldelse
+Debatindlæg
+Marketer Advertorial
+Link
+Redaktionelt Redaktionel tekst
+Lyd
+Taksonomi Brands aviser, blogs, magasiner og andre udgivelser, produkter og ja, brands De enkelte brands:
+/brands/[term:name]  Oversigt:
+/brands  Bemærk at maskinnavnet er publikation (af historiske årsager)</description>
     </item>
     
     <item>
