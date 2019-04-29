@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Kiils </title>
+    <title>Kiils  | Taksonomi</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -30,18 +30,25 @@
 
     
 
-    <meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.kiils.dk/404.html" />
+    <meta property="og:title" content="Taksonomi" />
+<meta property="og:description" content="Taksonomi på Folkets" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.kiils.dk/docs-folkets/taksonomi/" />
 
 
-<meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="Taksonomi">
+<meta itemprop="description" content="Taksonomi på Folkets">
 
+
+
+<meta itemprop="wordCount" content="155">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Taksonomi"/>
+<meta name="twitter:description" content="Taksonomi på Folkets"/>
 
   </head>
 
@@ -120,11 +127,142 @@
 
     <main class="pb7" role="main">
       
-    <article class="center cf pv5 measure-wide-l">
-      <h1>
-        This is not the page you were looking for
-      </h1>
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b helvetica tracked">
+          DOCS FOLKETS
+        </p>
+
+
+
+        <h1 class="f1">
+          Taksonomi
+        </h1><div class="bg-light-gray pa3">
+          <p class="f5 b mb3"></p>
+        <aside>
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#taksonomi">Taksonomi</a>
+<ul>
+<li><a href="#brands">Brands</a></li>
+<li><a href="#emner-evigt-aktuelle-områder">Emner - &ldquo;evigt aktuelle&rdquo; områder</a></li>
+<li><a href="#typer-indholdstype-term">Typer - Indholdstype term</a></li>
+<li><a href="#organisationer">Organisationer</a></li>
+<li><a href="#personer">Personer</a></li>
+<li><a href="#serier-til-at-gruppere-indlæg-i-en-serie">Serier - til at gruppere indlæg i en serie</a></li>
+<li><a href="#temaer-tidstypiske-eller-områder-som-er-aktuelle-for-en-periode">Temaer - &ldquo;tidstypiske&rdquo; eller områder som er aktuelle for en periode</a></li>
+</ul></li>
+</ul>
+</nav>
+        </aside>
+        </div></header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        
+
+<h1 id="taksonomi">Taksonomi</h1>
+
+<h2 id="brands">Brands</h2>
+
+<p>aviser, blogs, magasiner og andre udgivelser, produkter og ja, <em>brands</em>
+De enkelte brands:</p>
+
+<pre><code>/brands/[term:name]
+</code></pre>
+
+<p>Oversigt:</p>
+
+<pre><code>/brands
+</code></pre>
+
+<p>Bemærk at maskinnavnet er publikation (af historiske årsager)</p>
+
+<p>Brands skal have unikt navn som ikke må krydse med emne  navne</p>
+
+<p>Bemærk at views så bør være 2 dyb så vi kan få eventuelle undertermer med for de forkellige brands</p>
+
+<h2 id="emner-evigt-aktuelle-områder">Emner - &ldquo;evigt aktuelle&rdquo; områder</h2>
+
+<p>Maks 2 dyb</p>
+
+<pre><code>/emner/[term:parent]/[term:name]
+</code></pre>
+
+<p>Bemærk at views så også bør være 2 dyb
+Oversigt:</p>
+
+<pre><code>/emner
+</code></pre>
+
+<p>Maskinnavn: sektion (af historiske årsager)</p>
+
+<h2 id="typer-indholdstype-term">Typer - Indholdstype term</h2>
+
+<p>Eneste som er direkte på roden</p>
+
+<pre><code>/[term:name]
+</code></pre>
+
+<p>Analyser</p>
+
+<p>Anmeldelser</p>
+
+<p>Artikler
+Ledere</p>
+
+<h2 id="organisationer">Organisationer</h2>
+
+<p>Den enkelte</p>
+
+<pre><code>/organisationer/[term:name]
+</code></pre>
+
+<p>Oversigt</p>
+
+<pre><code>/organisationer
+</code></pre>
+
+<h2 id="personer">Personer</h2>
+
+<p>Den enkelte</p>
+
+<pre><code>/personer/[term:name]
+</code></pre>
+
+<p>Oversigt</p>
+
+<pre><code>/personer
+</code></pre>
+
+<h2 id="serier-til-at-gruppere-indlæg-i-en-serie">Serier - til at gruppere indlæg i en serie</h2>
+
+<p>Den enkelte</p>
+
+<pre><code>/serier/[term:name]
+</code></pre>
+
+<p>Oversigt</p>
+
+<pre><code>/serier
+</code></pre>
+
+<h2 id="temaer-tidstypiske-eller-områder-som-er-aktuelle-for-en-periode">Temaer - &ldquo;tidstypiske&rdquo; eller områder som er aktuelle for en periode</h2>
+
+<p>Det enkelte</p>
+
+<pre><code>/temaer/[term:name]
+</code></pre>
+
+<p>Oversigt</p>
+
+<pre><code>/temaer
+</code></pre>
+
+<p>Vi har ikke sektioner, men brands kan bneytte sig af emner, temaer, serier, perosner og orgainsation</p>
+
+      </div>
     </article>
+  </div>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
