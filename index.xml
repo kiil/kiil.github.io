@@ -11,12 +11,12 @@
     
     
     <item>
-      <title></title>
+      <title>Folkets.dk docs</title>
       <link>https://www.kiils.dk/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.kiils.dk/docs/</guid>
-      <description>FOLKETS.DK MANUAL Indhold Tokens Tokens baseret på moduler Samlet antal læsninger af indhold
+      <description>Indhold Tokens Tokens baseret på moduler Samlet antal læsninger af indhold
 [gac|all]  Tokens baseret på Views Justgage Nodes Artikler seneste uge
 [views:embed:stats_nodes:embed_2]  Artikel-delinger seneste uge
 [views:embed:stats_nodes:embed_3]  Artikel-læsninger seneste uge
