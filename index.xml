@@ -28,5 +28,30 @@
 [views:embed:stats_terms:embed_4]  Users Brugere som har udgivet mindst en artikel</description>
     </item>
     
+    <item>
+      <title>Kontakt</title>
+      <link>http://www.kiils.dk/kontakt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kiils.dk/kontakt/</guid>
+      <description>Du er altid velkommen til at kontakte Kiils
+Telefon 40261872 eller mail lennart@kiils.dk Kiils v/Lennart Kiil
+Kirkeskov Allé 72
+3050 Humlebæk</description>
+    </item>
+    
+    <item>
+      <title>Priser</title>
+      <link>http://www.kiils.dk/priser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kiils.dk/priser/</guid>
+      <description>Prisen er den samme for offentlig og privat.
+ time kr 1000
+ time kr 900
+ time kr 800
+ time og frem kr 600  Alle priser eksklusive moms.</description>
+    </item>
+    
   </channel>
 </rss>
